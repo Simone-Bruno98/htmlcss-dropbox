@@ -8,7 +8,10 @@ header{
     height: 8vh;
     width: 100vw;
     background-color: white;
-    position: relative;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
 }
 .logo img{
     height: auto;
@@ -60,19 +63,22 @@ header a{
     top: calc(4vh - 17px);
 }
 /* header */
-
-.samemargin div{
-    padding: 0% 10%;
+.samemargin{
+    width: 100%;
+}
+.samemargin .plan{
+    padding: 0% 17%;
 }
 .freetry{
     background-color: #B4D0E7;
-    height: 80vh;
+    height: 90vh;
     position: relative;
+    padding: 0% 15%;
 }
 .freetry h1{
     font-size: 86px;
     font-weight: 700;
-    padding: 7% 0px 0px 0px;
+    padding: 11% 0px 0px 0px;
     margin: 0px 0px;
     text-align: left;
 }
@@ -105,4 +111,135 @@ header a{
     top: 47%;
     right: 10%;
 }
+/* freetry completato */
+/* plan */
+.plan{
+    height: 200vh;
+    width: 66%;
+    position: relative;
+    display: inline-block;
+}
+.plan h1{
+    font-weight: 600;
+    font-size: 40px;
+    position: absolute;
+    top: 150px;
+}
+.plan .input {
+    position: relative;
+    font-size: 17px;
+    top:270px;
+}
+.tabellasx{
+    width: 20%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 320px;
+    left: 17%;
+}
+.tabellacent{
+    width: 20%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 320px;
+    right: calc(50% - 10%);
 
+}
+.tabelladx{
+    width: 20%;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    top: 320px;
+    right: 17%;
+}
+.tabletitle{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 0px 10px 0px ;
+    background-color: white;
+}
+.content{
+    border: 1px solid grey;
+    padding: 20px 20px 20px 20px ;
+    background-color: white;
+    min-height: 110vh;
+}
+.licencetype{
+    font-weight: 800;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.price{
+    font-weight: 800;
+    font-size: 15px;
+    text-align: left;
+}
+.duration{
+    font-weight: 600;
+    font-size: 14px;
+    text-align: left;
+    color: grey;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.content p{
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+    margin: 30px 0px;
+}
+.underline{
+    font-weight: 500;
+    color: blue;
+    text-decoration: underline;
+    font-size: inherit;
+}
+.functions{
+    padding-bottom: 40px;
+}
+.tryforfree{
+    padding: 10px 40px;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+}
+.planpoints{
+    font-weight: 800;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 20px;
+}
+.content .checkmark{
+    color: blue;
+    font-weight: 800;
+    font-size: 15px;
+}
+.content hr{
+    width: 50px;
+    text-align: left;
+    position: relative;
+    right: 105px;
+}
+.tabellainf{
+    width: 66%;
+    position: absolute;
+    top: 158vh;
+}
+.tabellainf .content .tryforfree{
+    position: absolute;
+    right:3%;
+    top: 30%;
+}
+.tabellainf .content .licencetype{
+    margin-top: 8px;
+}
+.tabellainf .content{
+    min-height: 17vh;
+}
+/* plan completato */
+/* findpartner */
