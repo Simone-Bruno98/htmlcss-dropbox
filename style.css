@@ -363,7 +363,7 @@ header a{
 
 
 .teamanddropbox{
-    height: 5vh;
+    height: 56vh;
     width: 100%;
     position: relative;
 }
@@ -498,3 +498,32 @@ header a{
 
 /* teamanddropbox completato */
 /* freetry 2 */
+
+.freetry2{
+    height: 40vh;
+    padding: 0% 17%;
+    background-color: #B4D0E7;
+    position: relative;
+}
+.freetry2title{
+    font-size: 45px;
+    font-weight: 700;
+    display: inline-block;
+    color: #61082B;
+    padding-right: 40%;
+    position: relative;
+    top: 100px;
+}
+.freetry2button{
+    padding: 10px 30px;
+    background-color: white;
+    text-decoration: none;
+    color: #323232;
+    position: absolute;
+    right: 17%;
+    top: 155px;
+}
+
+
+/* freetry2 completato */
+/* faq */
