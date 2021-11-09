@@ -527,3 +527,39 @@ header a{
 
 /* freetry2 completato */
 /* faq */
+
+
+.faq{
+    width: 66%;
+    height: 70vh;
+    margin: 0% 17%;
+
+}
+.faqtitle{
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+    margin-top: 100px;
+}
+.faq ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.faq li{
+    font-weight: 700;
+    font-size: 17px;
+    border-top: 1px solid #DCDCDE;
+    padding: 4% 0%;
+}
+.faq ul i{
+    position: relative;
+    left: 530px;
+}
+.last{
+    border-bottom: 1px solid #DCDCDE;
+}
+
+
+/* faq completato */
+/* footer */
+
