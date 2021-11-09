@@ -53,7 +53,7 @@ header{
 }
 header a{
     display: inline-block;
-    background-color: blue;
+    background-color: #0061FF;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -62,7 +62,12 @@ header a{
     font-size: 14px;
     top: calc(4vh - 17px);
 }
-/* header */
+
+
+/* header finito */
+/* freetry */
+
+
 .samemargin{
     width: 100%;
 }
@@ -88,7 +93,7 @@ header a{
     padding: 3% 69% 3% 0%;
 }
 .freetry a{
-    background-color: blue;
+    background-color: #0061FF;
     padding: 10px 20px;
     font-size: 17px;
     font-weight: 600;
@@ -111,8 +116,12 @@ header a{
     top: 47%;
     right: 10%;
 }
+
+
 /* freetry completato */
 /* plan */
+
+
 .plan{
     height: 200vh;
     width: 66%;
@@ -145,7 +154,6 @@ header a{
     position: absolute;
     top: 320px;
     right: calc(50% - 10%);
-
 }
 .tabelladx{
     width: 20%;
@@ -159,12 +167,13 @@ header a{
     font-size: 20px;
     font-weight: 500;
     text-align: center;
-    border: 1px solid black;
+    border: 1px solid #D0D0D3;
     padding: 10px 0px 10px 0px ;
     background-color: white;
+    color: #9B9B9B;
 }
 .content{
-    border: 1px solid grey;
+    border: 1px solid #D0D0D3;
     padding: 20px 20px 20px 20px ;
     background-color: white;
     min-height: 110vh;
@@ -204,7 +213,7 @@ header a{
 }
 .tryforfree{
     padding: 10px 40px;
-    background-color: blue;
+    background-color: #0061FF;
     text-decoration: none;
     color: white;
 }
@@ -215,7 +224,7 @@ header a{
     margin-top: 20px;
 }
 .content .checkmark{
-    color: blue;
+    color: #0061FF;
     font-weight: 800;
     font-size: 15px;
 }
@@ -241,13 +250,15 @@ header a{
 .tabellainf .content{
     min-height: 17vh;
 }
+
+
 /* plan completato */
 /* findpartner */
+
 
 .findpartner{
     width: 66%;
     height: 70vh;
-    background-color: red;
 }
 .findpartner img{
     width: 55%;
@@ -269,12 +280,16 @@ header a{
 .partnerbutton{
     padding: 10px 30px;
     background-color: white;
-    border: 1px solid black;
+    border: 1px solid #A3A3A3;
     text-decoration: none;
-    color: black;
+    color: #A3A3A3;
 }
+
+
 /* findpartner completato */
 /* dropboxbusinness */
+
+
 .dropboxbusinness{
     height: 130vh;
     width: 66%;
@@ -284,7 +299,6 @@ header a{
     margin-top: 2%;
     font-size: 45px;
     font-weight: 700;
-
 }
 .elementbusinness{
     width: 18%;
@@ -300,7 +314,6 @@ header a{
     font-size: 25px;
     font-weight: 700;
 }
-
 #topsx{
     left: 17%;
     top: 60px;
@@ -325,5 +338,163 @@ header a{
     right: 17%;
     bottom: 0px;
 }
+
+
 /* businness finito */
+/* clients */
+
+
+.clients{
+    height: 40vh;
+    margin: 0% 17%;
+    position: relative;
+}
+.clientstitle{
+    font-size: 45px;
+    font-weight: 700;
+}
+.clienttext{
+    position: relative;
+    top: 45%;
+}
+
+
 /* team and dropbox */
+
+
+.teamanddropbox{
+    height: 5vh;
+    width: 100%;
+    position: relative;
+}
+.sponsorsx{
+    display: inline-block;
+    height: 56vh;
+    width: 30%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.sponsordx{
+    display: inline-block;
+    height: 56vh;
+    width: 30%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.sponsorsx div{
+    height: 28vh;
+    width: 50%;
+    display: inline-block;
+}
+.sxtopsx{
+    position: absolute;
+    box-sizing: border-box;
+    top: 0px;
+    left: 0px;
+    background-color: #A2D39B;
+    border: 10px solid #D0E9CD;
+}
+.sxtopdx{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    background-color: #61082B;
+}
+.sxbottomsx{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    background-color: #0093CE;
+}
+.sxbottomdx{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #FF1C1C;
+}
+.sponsorsx div img{
+    height: auto;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(45% , -50%);
+    filter: invert(88%) sepia(100%) saturate(0%) hue-rotate(99deg) brightness(105%) contrast(107%);
+}
+
+
+/* ho provato a fare regole css che comprendevano sia sinistra che destra ma ho dovuto separare tutto */
+
+
+.sponsordx div{
+    height: 28vh;
+    width: 50%;
+    display: inline-block;
+}
+.dxtopsx{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #D5001F;
+}
+.dxtopdx{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    background-color: #B4D0E7;
+}
+.dxbottomsx{
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    background-color: #0D2481;
+}
+.dxbottomdx{
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    background-color: #FFD830;
+}
+.sponsordx div img{
+    height: auto;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(45% , -50%);
+    filter: invert(88%) sepia(100%) saturate(0%) hue-rotate(99deg) brightness(105%) contrast(107%);
+}
+.sponsorcent{
+    display: inline-block;
+    box-sizing: border-box;
+    height: 56vh;
+    width: 40%;
+    background-color: #F5F5F5;
+    position: absolute;
+    top: 0px;
+    left: calc(50% - 20%);
+    padding: 50px 50px 50px 50px;
+}
+.sponsorcent img{
+    width: 150px;
+    height: auto;
+}
+.teamanddropbox hr{
+    position: relative;
+    width: 75px;
+    top: 10%;
+    right: 43%;
+}
+.sponsortext{
+    font-size: 15px;
+    margin-top: 20%;
+}
+.sponsorsignature{
+    font-size: 15px;
+    margin-top: 10%;
+}
+
+/* teamanddropbox completato */
+/* freetry 2 */
