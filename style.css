@@ -66,7 +66,7 @@ header a{
 .samemargin{
     width: 100%;
 }
-.samemargin .plan,.findpartner{
+.samemargin .plan,.findpartner,.dropboxbusinness{
     padding: 0% 17%;
 }
 .freetry{
@@ -246,18 +246,19 @@ header a{
 
 .findpartner{
     width: 66%;
-    height: 60vh;
+    height: 70vh;
+    background-color: red;
 }
 .findpartner img{
-    width: 60%;
+    width: 55%;
     height: auto;
 }
 .partnercontent{
     display: inline-block;
-    width: 34%;
+    width: 39%;
     margin-left: 5%;
     position: relative;
-    bottom:40%
+    bottom:55%
 }
 .partnertitle{
     font-size: 23px;
@@ -274,3 +275,55 @@ header a{
 }
 /* findpartner completato */
 /* dropboxbusinness */
+.dropboxbusinness{
+    height: 130vh;
+    width: 66%;
+    position: relative;
+}
+.businnesstitle{
+    margin-top: 2%;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+.elementbusinness{
+    width: 18%;
+    position: absolute;
+    display: inline-block;
+    margin-top: 3%;
+}
+.elementbusinness img{
+    width: 100%;
+    height: auto;
+}
+.elementbusinness h4{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#topsx{
+    left: 17%;
+    top: 60px;
+}
+#topcent{
+    left: calc(50% - 9%);
+    top: 60px;
+}
+#topdx{
+    right: 17%;
+    top: 60px;
+}
+#bottomsx{
+    left: 17%;
+    bottom: 0px;
+}
+#bottomcent{
+    left: calc(50% - 9%);
+    bottom: 0px;
+}
+#bottomdx{
+    right: 17%;
+    bottom: 0px;
+}
+/* businness finito */
+/* team and dropbox */
